@@ -1653,7 +1653,47 @@
 
         <!-- Barra lateral -->
         <aside class="layout__aside">
+            <section class="aside__login">
 
+                <header class="login__subheader">
+                    <h3 class="subheader__title">Iniciar sesión</h3>
+                </header>
+
+                <div class="login__container">
+                    <form action="" class="login__form">
+
+                        <div class="form__container-username">
+                            <label for="username" class="form__label">
+                                Usuario
+                            </label>
+                            <input type="text" class="form__input" name="username" id="username">
+                        </div>
+
+                        <div class="form__container-password">
+                            <label for="password" class="form__label">
+                                Contraseña
+                            </label>
+                            <input type="password" class="form__input" name="password" id="password">
+                        </div>
+
+                        <div class="form__container-remember">
+                            <label for="remember" class="form__label">
+                                Recuérdame
+                            </label>
+                            <input type="checkbox" class="form__input" name="remember" id="remember">
+                        </div>
+
+                        <input type="submit" value="Iniciar sesión" class="form__submit">
+
+                    </form>
+                    <a href="#" class="login__register">
+                        Regístrate
+                    </a>
+                    <a href="#" class="login__lost-pass">
+                        ¿Olvidaste tu contraseña?
+                    </a>
+                </div>
+            </section>
         </aside>
     </div>
 
