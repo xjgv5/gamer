@@ -43,3 +43,49 @@ body {
     min-width: 100rem;
     margin: 0 auto;
 }
+
+/* Estilos header */
+.layout__header {
+    grid-area: header;
+}
+
+
+/* Estilos navegacion */
+.layout__nav {
+    grid-area: nav;
+}
+
+/* Estilos marquesina */
+.layout__marquee {
+    grid-area: marquee;
+}
+
+/* Estilos slider */
+.layout__slider {
+    grid-area: slider;
+}
+
+/* Estilos mejores momentos highlights */
+.layout__highlights {
+    grid-area: high;
+}
+
+/* Estilos videos */
+.layout__videos {
+    grid-area: videos;
+}
+
+/* Estilos carrousel */
+.layout__carrousel-games {
+    grid-area: carrousel;
+}
+
+/* Estilos contenido principal main */
+.layout__main {
+    grid-area: main;
+}
+
+/* Estilos barra lateral aside */
+.layout__aside {
+    grid-area: aside;
+}
