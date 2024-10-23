@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-    --color-principal: #fffff;
+    --color-principal: #fffffF;
     --color-secondary: #00924E;
     --color-bg-navbar: #333946;
 }
@@ -78,6 +78,31 @@ body {
     width: 100%;
     color: var(--color-principal);
     background-color: var(--color-bg-navbar);
+}
+
+.navbar__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar__item {
+    padding: 1.5rem 0;
+    height: 5rem;
+    transition: all 300ms ease-in-out;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+}
+
+.navbar__item:hover {
+    background-color: var(--color-secondary);
+}
+
+.navbar__link {
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 0 1.5rem;
+    color: var(--color-principal);
 }
 
 /* Provisional */
