@@ -108,8 +108,9 @@ body {
 }
 
 .search__input {
+    display: none;
     width: 20rem;
-    height: 100%;
+    height: 5rem;
     font-size: 1.8rem;
     background-color: var(--color-secondary);
     color: var(--color-principal);
@@ -120,13 +121,14 @@ body {
 
 .search__input::placeholder {
     color: var(--color-principal);
+    padding: 0 2rem;
     opacity: 1;
 }
 
 .navbar__btn-search {
     background-color: var(--color-secondary);
     padding: 0.8rem 1.3rem;
-    height: 100%;
+    height: 5rem;
     display: flex;
     align-items: center;
 }
