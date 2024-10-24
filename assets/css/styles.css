@@ -139,10 +139,37 @@ body {
     font-size: 2.7rem;
 }
 
-/* Provisional */
+
+/* Estilos de los submenus */
 .navbar__submenu {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9;
+    overflow: hidden;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+    background-color: var(--color-secondary);
+
+    display: flex;
+    flex-direction: row;
+
 }
+
+.navbar__item:hover .navbar__submenu {
+    opacity: 1;
+    visibility: visible;
+    /* transition: all 300ms ease-in-out; */
+}
+
+.navbar__item:hover .submenu__carrousel {
+    display: block;
+}
+
+
 
 
 /* Estilos marquesina */
