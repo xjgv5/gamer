@@ -154,7 +154,6 @@ body {
     top: 100%;
     left: 0;
     width: 100%;
-
     background-color: var(--color-secondary);
 
     display: flex;
@@ -164,6 +163,7 @@ body {
 .navbar__submenu--small {
     left: auto;
     width: 20%;
+    overflow: visible;
 }
 
 .navbar__submenu>.navbar__sublist {
@@ -250,6 +250,11 @@ body {
     text-transform: uppercase;
 }
 
+/* Estilos carrouseles submenus */
+.carrousel__menu {
+    display: flex;
+    flex-direction: row;
+}
 
 /* Estilos marquesina */
 .layout__marquee {
