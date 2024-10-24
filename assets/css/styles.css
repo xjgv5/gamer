@@ -3,6 +3,7 @@
     --color-principal: #fffffF;
     --color-secondary: #00924E;
     --color-bg-navbar: #333946;
+    --color-border-list: rgba(255, 255, 255, 0.3);
 }
 
 /* Estilos generales */
@@ -169,7 +170,17 @@ body {
     display: block;
 }
 
+.navbar__sublist {
+    display: inline-block;
+    padding: 1rem;
+    width: 26%;
+}
 
+.sublist__item {
+    padding: 0.1rem 0;
+    position: relative;
+    border-bottom: 1px solid var(--color-border-list);
+}
 
 
 /* Estilos marquesina */
