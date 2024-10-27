@@ -256,6 +256,27 @@ body {
     flex-direction: row;
 }
 
+.carrousel__item {
+    flex-basis: 25%;
+    position: relative;
+}
+
+.carrousel__menu--small>.carrousel__item {
+    flex-basis: auto;
+}
+
+.carrousel__img-container {
+    position: relative;
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+}
+
+.carrousel__img {
+    height: 100%;
+    width: 100%;
+}
+
 /* Estilos marquesina */
 .layout__marquee {
     grid-area: marquee;
