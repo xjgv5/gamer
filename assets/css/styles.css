@@ -167,7 +167,7 @@ body {
 }
 
 .navbar__submenu>.navbar__sublist {
-    width: 100%;
+    width: 25%;
 }
 
 .navbar__item:hover .navbar__submenu {
@@ -262,7 +262,7 @@ body {
 }
 
 .carrousel__menu--small>.carrousel__item {
-    flex-basis: auto;
+    flex-basis: 25%;
 }
 
 .carrousel__img-container {
@@ -316,6 +316,17 @@ body {
     right: 0;
     padding: 1rem;
     text-align: center;
+}
+
+.carrousel__link {
+    color: var(--color-principal);
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 3px black;
+    transition: all 300ms ease-in-out;
+}
+
+.carrousel__title:hover .carrousel__link {
+    background-color: var(--color-secondary);
 }
 
 /* Estilos marquesina */
