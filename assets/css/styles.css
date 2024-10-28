@@ -347,6 +347,24 @@ body {
     background-color: var(--color-bg-marquee);
 }
 
+.marquee__container {
+    display: flex;
+    overflow: hidden;
+}
+
+.marquee__header {
+    position: relative;
+    z-index: 5;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: var(--color-principal);
+    background-color: var(--color-secondary);
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
 
 
 /* Estilos slider */
