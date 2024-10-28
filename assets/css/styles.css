@@ -386,6 +386,18 @@ body {
 
 .marquee__link {
     color: var(--color-text-marquee);
+    transition: all 300ms ease-in-out;
+}
+
+.marquee__link:hover {
+    color: var(--color-secondary);
+    /* text-decoration: underline */
+}
+
+.marquee__link::before {
+    content: "+ ";
+    color: var(--color-secondary);
+    font-weight: 900;
 }
 
 /* Estilos slider */
