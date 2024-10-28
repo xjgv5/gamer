@@ -7,6 +7,7 @@
     --color-hover-sublist: rgba(0, 0, 0, 0.3);
     --color-shadow: rgba(0, 0, 0, 0.1);
     --color-bg-marquee: #EEEEEE;
+    --color-text-marquee: #7c7c7c;
 }
 
 /* Estilos generales */
@@ -365,7 +366,27 @@ body {
     margin-right: 1rem;
 }
 
+.marquee__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+}
 
+.marquee__item:first-child {
+    margin-left: 10rem;
+}
+
+.marquee__title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-style: normal;
+    white-space: nowrap;
+}
+
+.marquee__link {
+    color: var(--color-text-marquee);
+}
 
 /* Estilos slider */
 .layout__slider {
