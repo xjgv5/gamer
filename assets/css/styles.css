@@ -565,6 +565,36 @@ body {
     color: var(--color-secondary);
 }
 
+.highlights__meta {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.highlights__autor {
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: var(--color-secondary);
+}
+
+.highlights__date {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: var(--color-text-marquee);
+}
+
+.highlights__description {
+    color: var(--color--title);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
 /* Estilos sub encabezados */
 .news__subheader,
 .games__subheader,
