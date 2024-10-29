@@ -595,6 +595,36 @@ body {
     font-weight: 500;
 }
 
+.highlights__footer-post,
+.footer-post__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.footer-post__container {
+    gap: 1rem;
+}
+
+.footer-post__views,
+.footer-post__comments {
+    font-weight: 400;
+    display: inline-block;
+    font-size: 1.1rem;
+    color: var(--color-text-marquee);
+}
+
+.footer-post__views>.fa-solid,
+.footer-post__comments>.fa-solid {
+    margin-right: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.footer-post__comments>a {
+    display: inline;
+}
+
+
 /* Estilos sub encabezados */
 .news__subheader,
 .games__subheader,
