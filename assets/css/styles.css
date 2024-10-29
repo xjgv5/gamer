@@ -8,6 +8,7 @@
     --color-shadow: rgba(0, 0, 0, 0.1);
     --color-bg-marquee: #EEEEEE;
     --color-text-marquee: #7c7c7c;
+    --color--title: #333333;
 }
 
 /* Estilos generales */
@@ -546,7 +547,22 @@ body {
     font-size: 1.1rem;
     text-transform: uppercase;
     color: var(--color-principal);
+}
 
+.highlights__title {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.highlights__link {
+    color: var(--color--title);
+    transition: all 300ms ease-in-out;
+}
+
+.highlights__title:hover>.highlights__link {
+    color: var(--color-secondary);
 }
 
 /* Estilos sub encabezados */
