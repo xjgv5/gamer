@@ -599,7 +599,7 @@ body {
 .footer-post__container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .footer-post__container {
@@ -624,6 +624,23 @@ body {
     display: inline;
 }
 
+.footer-post__read-more {
+    color: var(--color-text-marquee);
+    border-radius: 3px;
+    border: 2px solid var(--color-text-marquee);
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.4rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    transition: all 300ms ease-in-out;
+}
+
+.footer-post__read-more:hover {
+    color: var(--color-principal);
+    background-color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
+}
 
 /* Estilos sub encabezados */
 .news__subheader,
