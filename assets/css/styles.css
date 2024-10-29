@@ -525,6 +525,30 @@ body {
     transform: scale(1.1);
 }
 
+
+.highlights__category {
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    padding: 0.5rem 1.1rem;
+    text-align: center;
+    background-color: var(--color-secondary);
+    transition: all 300ms ease-in-out;
+}
+
+.highlights__category:hover {
+    background-color: var(--color-bg-navbar);
+}
+
+.highlights__name-category {
+    display: block;
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: var(--color-principal);
+
+}
+
 /* Estilos sub encabezados */
 .news__subheader,
 .games__subheader,
