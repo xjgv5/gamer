@@ -192,8 +192,9 @@ body {
 .sublist__item {
     padding: 0.1rem 0;
     position: relative;
-    /* width: 100%; */
-    border-bottom: 1px solid var(--color-border-list);
+    width: 120px;
+    /* border-bottom: 1px solid var(--color-border-list); */
+    border: 1px solid red;
 }
 
 .sublist__item:last-child {
@@ -205,6 +206,7 @@ body {
 }
 
 .sublist__link {
+    width: 50px;
     color: var(--color-principal);
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
@@ -215,6 +217,7 @@ body {
 }
 
 .sublist__dropdown {
+    border: 2px solid red;
     position: absolute;
     left: 100%;
     top: 0;
