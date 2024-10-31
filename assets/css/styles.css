@@ -576,14 +576,16 @@ body {
     margin: 1rem 0;
 }
 
-.highlights__autor {
+.highlights__autor,
+.main-video__author {
     font-weight: 600;
     font-size: 1.1rem;
     text-transform: uppercase;
     color: var(--color-secondary);
 }
 
-.highlights__date {
+.highlights__date,
+.main-video__date {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 1.1rem;
@@ -610,7 +612,9 @@ body {
 }
 
 .footer-post__views,
-.footer-post__comments {
+.footer-post__comments,
+.main-video__views,
+.main-video__comments {
     font-weight: 400;
     display: inline-block;
     font-size: 1.1rem;
@@ -618,7 +622,9 @@ body {
 }
 
 .footer-post__views>.fa-solid,
-.footer-post__comments>.fa-solid {
+.footer-post__comments>.fa-solid,
+.main-video__views>.fa-solid,
+.main-video__comments>.fa-solid {
     margin-right: 0.2rem;
     font-size: 1.2rem;
 }
@@ -708,6 +714,23 @@ body {
 .main-video__title {
     font-size: 2.4rem;
     margin-bottom: 1rem;
+}
+
+.main-video__info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-bg-marquee);
+}
+
+.main-video__info-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.main-video__info-container a {
+    display: inline;
 }
 
 /* Estilos carrousel */
