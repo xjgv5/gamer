@@ -774,6 +774,18 @@ body {
     gap: 1rem;
 }
 
+.video__image {
+    overflow: hidden;
+}
+
+.video__img {
+    transition: all 300ms ease;
+}
+
+.video__image:hover .video__img {
+    transform: scale(1.1);
+}
+
 /* Estilos carrousel */
 .layout__carrousel-games {
     grid-area: carrousel;
