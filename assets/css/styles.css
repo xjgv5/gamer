@@ -194,7 +194,7 @@ body {
     position: relative;
     width: 120px;
     /* border-bottom: 1px solid var(--color-border-list); */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .sublist__item:last-child {
@@ -216,8 +216,16 @@ body {
     white-space: nowrap;
 }
 
+.sublist__container-dropdown {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1.5rem;
+}
+
 .sublist__dropdown {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     left: 100%;
     top: 0;
