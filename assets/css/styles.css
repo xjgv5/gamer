@@ -577,7 +577,8 @@ body {
 }
 
 .highlights__autor,
-.main-video__author {
+.main-video__author,
+.video__author {
     font-weight: 600;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -585,7 +586,8 @@ body {
 }
 
 .highlights__date,
-.main-video__date {
+.main-video__date,
+.video__date {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 1.1rem;
@@ -764,6 +766,12 @@ body {
 
 .video__title:hover>.videos__link {
     color: var(--color-secondary);
+}
+
+.video__info {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 /* Estilos carrousel */
