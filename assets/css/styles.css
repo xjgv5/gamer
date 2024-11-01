@@ -834,6 +834,41 @@ body {
     top: 40%;
     text-align: center;
     padding: 0 1rem;
+    transition: all 300ms;
+}
+
+.carrousel-games__category {
+    display: block;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 3px var(--color-text-marquee);
+    color: var(--color-principal);
+    transition: all 300ms ease;
+}
+
+.carrousel-games__category:hover {
+    color: var(--color-secondary);
+}
+
+.carrousel-games__line {
+    width: 4rem;
+    height: 0.2rem;
+    margin: 0.4rem auto;
+    background-color: var(--color-secondary);
+}
+
+.carrousel-games__title {
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 3px var(--color-text-marquee);
+}
+
+.carrousel-games__link {
+    color: var(--color-principal);
+    transition: all 300ms ease;
+}
+
+.carrousel-games__title:hover .carrousel-games__link {
+    background-color: var(--color-secondary);
 }
 
 /* Estilos contenido principal main */
