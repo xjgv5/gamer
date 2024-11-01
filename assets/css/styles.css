@@ -830,6 +830,7 @@ body {
 }
 
 .carrousel-games__info {
+    width: 100%;
     position: absolute;
     top: 40%;
     text-align: center;
@@ -874,6 +875,42 @@ body {
 /* Estilos contenido principal main */
 .layout__main {
     grid-area: main;
+    margin-right: 3rem;
+}
+
+/* Estilos para las noticias */
+.main__news {
+    width: 100%;
+}
+
+.news__main-post {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--color-bg-marquee);
+}
+
+.main-post__image {
+    position: relative;
+    overflow: hidden;
+    flex-basis: 50%;
+}
+
+.main-post__img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.main-post__img:hover {
+    transform: scale(1.1);
+}
+
+.main-post__info {
+    flex-basis: 50%;
 }
 
 /* Estilos barra lateral aside */
