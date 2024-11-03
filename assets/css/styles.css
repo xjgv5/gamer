@@ -9,6 +9,7 @@
     --color-bg-marquee: #EEEEEE;
     --color-text-marquee: #7c7c7c;
     --color--title: #333333;
+    --color--dark-secondary: #026739;
 }
 
 /* Estilos generales */
@@ -551,7 +552,7 @@ body {
 }
 
 .highlights__category:hover {
-    background-color: var(--color-bg-navbar);
+    background-color: var(--color--dark-secondary);
 }
 
 .highlights__name-category {
@@ -897,6 +898,7 @@ body {
     position: relative;
     overflow: hidden;
     flex-basis: 50%;
+    height: 20rem;
 }
 
 .main-post__img {
@@ -911,6 +913,27 @@ body {
 
 .main-post__info {
     flex-basis: 50%;
+}
+
+.main-post__container-category {
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-secondary);
+    transition: all 300ms ease-in-out;
+}
+
+.main-post__container-category:hover {
+    background-color: var(--color--dark-secondary);
+}
+
+.main-post__category {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--color-principal);
 }
 
 /* Estilos barra lateral aside */
