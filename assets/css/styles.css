@@ -1106,6 +1106,37 @@ body {
     text-shadow: 0 0 5px black;
 }
 
+/* Estilos últimos articulos */
+.main-posts {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.posts__list-header {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 0.4rem;
+}
+
+
+.list-header--small {
+    font-weight: 400;
+    color: var(--color-principal);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    white-space: nowrap;
+}
+
+
+
+
+.list-header__item:nth-child(2) .list-header__title {
+    background-color: transparent;
+}
+
+
 /* Estilos barra lateral aside */
 .layout__aside {
     grid-area: aside;
