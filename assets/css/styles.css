@@ -12,6 +12,10 @@
     --color--dark-secondary: #026739;
     --color-bg-aside: #f5f5f5;
     --color-twitter: #2fc2ef;
+    --color-facebook: #4c66a4;
+    --color-instagram: #ea4c89;
+    --color-youtube: #cc181e;
+    --color-linkedin: #f4a62a;
 }
 
 /* Estilos generales */
@@ -1284,4 +1288,24 @@ body {
     line-height: 1;
     font-size: 1.3rem;
     opacity: 0.75;
+}
+
+.social__item--blue {
+    background-color: var(--color-twitter);
+}
+
+.social__item--darkblue {
+    background-color: var(--color-facebook);
+}
+
+.social__item--pink {
+    background-color: var(--color-instagram);
+}
+
+.social__item--red {
+    background-color: var(--color-youtube);
+}
+
+.social__item--yellow {
+    background-color: var(--color-linkedin);
 }
