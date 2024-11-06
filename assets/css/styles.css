@@ -538,6 +538,7 @@ body {
 .highlights__img,
 .post__img {
     transition: all 500ms ease;
+    min-height: 21.2rem;
 }
 
 .highlights__img:hover,
@@ -580,6 +581,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 1rem;
     margin-top: 1.5rem;
+    min-height: 6rem;
 }
 
 .highlights__link,
@@ -595,7 +597,6 @@ body {
 
 .highlights__meta,
 .post__meta {
-
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -607,7 +608,8 @@ body {
 .main-video__author,
 .video__author,
 .main-post__author,
-.news__author {
+.news__author,
+.post__author {
     font-weight: 600;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -618,7 +620,8 @@ body {
 .main-video__date,
 .video__date,
 .main-post__date,
-.news__date {
+.news__data,
+.post__date {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 1.1rem;
@@ -626,7 +629,8 @@ body {
     color: var(--color-text-marquee);
 }
 
-.highlights__description {
+.highlights__description,
+.post__description {
     color: var(--color--title);
     font-size: 1.3rem;
     margin-bottom: 1rem;
@@ -635,14 +639,16 @@ body {
 
 .highlights__footer-post,
 .footer-post__container,
-.footer-info__container {
+.footer-info__container,
+.post__footer-post {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
 }
 
 .footer-post__container,
-.footer-info__container {
+.footer-info__container,
+.footer-post__container {
     gap: 1rem;
 }
 
@@ -673,7 +679,8 @@ body {
 }
 
 .footer-post__read-more,
-.main-post__read-more {
+.main-post__read-more,
+.post__read-more {
     color: var(--color-text-marquee);
     border-radius: 3px;
     border: 2px solid var(--color-text-marquee);
@@ -686,7 +693,8 @@ body {
 }
 
 .footer-post__read-more:hover,
-.main-post__read-more:hover {
+.main-post__read-more:hover,
+.post__read-more:hover {
     color: var(--color-principal);
     background-color: var(--color-secondary);
     border: 2px solid var(--color-secondary);
@@ -1142,11 +1150,16 @@ body {
     white-space: nowrap;
 }
 
-
-
-
 .list-header__item:nth-child(2) .list-header__title {
     background-color: transparent;
+}
+
+.posts__container {
+    flex-wrap: wrap;
+}
+
+.posts__post {
+    flex-basis: calc(50% - 2rem);
 }
 
 
