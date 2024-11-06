@@ -1196,7 +1196,7 @@ body {
 .form__container-remember {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .form__container-remember .form__label,
@@ -1207,4 +1207,28 @@ body {
 
 .form__label {
     font-weight: 500;
+}
+
+.form__submit {
+    width: 100%;
+    background-color: var(--color-secondary);
+    color: var(--color-principal);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 0.7rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.form__submit:hover {
+    cursor: pointer;
+}
+
+.login__register,
+.login__lost-pass {
+    display: block;
+    color: var(--color-secondary);
+    font-weight: 400;
 }
