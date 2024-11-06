@@ -1265,9 +1265,23 @@ body {
 }
 
 .social__icon {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    flex-basis: 18%;
 }
 
 .social__icon>.fa-brands {
-    font-size: 3.5rem;
+    font-size: 3.6rem;
+}
+
+.social__number {
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.social__word {
+    line-height: 1;
+    font-size: 1.3rem;
+    opacity: 0.75;
 }
