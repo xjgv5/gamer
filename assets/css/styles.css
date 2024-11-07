@@ -1420,3 +1420,25 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+
+/* Estilos ultimas reviews */
+.aside__last-reviews {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.last-reviews__list-header {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.last-reviews__link-title {
+    font-size: 1.2rem;
+}
+
+.last-reviews__link-title--small {
+    background: none;
+}
