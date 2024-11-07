@@ -1362,3 +1362,44 @@ body {
 .aside__recent .list-header--small {
     background-color: transparent;
 }
+
+.recent__list-post {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.recent__item {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.recent__container-img {
+    height: 7rem;
+    width: 7rem;
+    overflow: hidden;
+}
+
+.recent__img {
+    width: 100%;
+    transition: all 300ms ease;
+}
+
+.recent__img:hover {
+    transform: scale(1.1);
+}
+
+.recent__title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.recent__link-title {
+    color: var(--color--title);
+    transition: all 300ms ease;
+}
+
+.recent__link-title:hover {
+    color: var(--color-secondary);
+}
