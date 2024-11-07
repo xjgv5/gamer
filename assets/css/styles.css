@@ -1139,11 +1139,14 @@ body {
     margin-bottom: 3rem;
 }
 
-.posts__list-header {
+.posts__list-header,
+.recent__list-header {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 0.3rem;
     margin-top: 0.4rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -1208,6 +1211,10 @@ body {
 .form__container-remember .form__input {
     width: auto;
     display: inline;
+}
+
+.form__check:hover {
+    cursor: pointer;
 }
 
 .form__label {
@@ -1341,4 +1348,17 @@ body {
     font-size: 1.3rem;
     text-transform: uppercase;
     display: inline-block;
+}
+
+/* Estilos post recientes */
+.aside__recent {
+    margin-bottom: 3rem;
+}
+
+.aside__recent .list-header__title {
+    display: inline-block;
+}
+
+.aside__recent .list-header--small {
+    background-color: transparent;
 }
