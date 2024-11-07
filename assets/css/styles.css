@@ -615,7 +615,8 @@ body {
 .video__author,
 .main-post__author,
 .news__author,
-.post__author {
+.post__author,
+.recent__author {
     font-weight: 600;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -646,7 +647,8 @@ body {
 .highlights__footer-post,
 .footer-post__container,
 .footer-info__container,
-.post__footer-post {
+.post__footer-post,
+.recent__meta-info {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
@@ -654,7 +656,8 @@ body {
 
 .footer-post__container,
 .footer-info__container,
-.footer-post__container {
+.footer-post__container,
+.recent__meta-info {
     gap: 1rem;
 }
 
@@ -663,7 +666,9 @@ body {
 .main-video__views,
 .main-video__comments,
 .main-post__views,
-.main-post__comments {
+.main-post__comments,
+.recent__views,
+.recent__comments {
     font-weight: 400;
     display: inline-block;
     font-size: 1.1rem;
@@ -675,7 +680,9 @@ body {
 .main-video__views>.fa-solid,
 .main-video__comments>.fa-solid,
 .main-post__views>.fa-solid,
-.main-post__comments>.fa-solid {
+.main-post__comments>.fa-solid,
+.recent__views>.fa-solid,
+.recent__comments>.fa-solid {
     margin-right: 0.2rem;
     font-size: 1.2rem;
 }
@@ -1402,4 +1409,14 @@ body {
 
 .recent__link-title:hover {
     color: var(--color-secondary);
+}
+
+.recent__details {
+    width: 100%;
+}
+
+.recent__container-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
