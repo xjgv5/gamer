@@ -1722,3 +1722,17 @@ body {
     text-transform: uppercase;
     text-shadow: 1px 1px 3px var(--color--title);
 }
+
+.footer__description {
+    width: 100%;
+    color: var(--color-principal);
+    padding: 2rem;
+    background-color: var(--color-footer-down);
+}
+
+.footer__text {
+    width: 67%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    white-space: nowrap;
+}
