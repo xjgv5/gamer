@@ -1551,3 +1551,27 @@ body {
     flex-direction: row;
     gap: 3rem;
 }
+
+.footer__left-container {
+    flex-basis: 33%;
+}
+
+.footer__about {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.about__title,
+.tags__title,
+.footer__title {
+    margin-bottom: 2rem;
+    color: var(--color-secondary);
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.about__description {
+    font-size: 1.3rem;
+    color: var(--color-principal);
+}
