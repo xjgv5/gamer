@@ -1654,3 +1654,18 @@ body {
     font-size: 1.1rem;
     font-weight: 500;
 }
+
+.list-popular__meta-info {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.list-popular__views,
+.list-popular__comments {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: var(--color-bg-marquee);
+    margin-right: 1rem;
+}
