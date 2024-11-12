@@ -7,3 +7,23 @@
 .navbar__mobile-list {
     display: none;
 }
+
+@media (max-width: 1024px) {
+    .navbar__mobile-btn {
+        display: flex;
+    }
+
+    .navbar__list {
+        display: none;
+    }
+
+    .navbar__mobile-list {
+        display: block;
+        position: absolute;
+        top: 98%;
+        width: 100%;
+        background-color: var(--color-bg-navbar);
+        z-index: 99;
+        padding: 1.5rem;
+    }
+}
