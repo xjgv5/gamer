@@ -174,4 +174,25 @@
         width: calc(50% - 1rem);
     }
 
+    .layout__carrousel-games {
+        margin-top: 3rem;
+    }
+
+    .carrousel-games__item {
+        flex-basis: 50%;
+    }
+
+    .carrousel-games__list {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .carrousel-games__item {
+        flex-basis: 49%;
+    }
+
+    .layout__aside {
+        margin-top: 3rem;
+    }
+
 }
