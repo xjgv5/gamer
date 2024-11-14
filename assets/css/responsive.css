@@ -28,6 +28,10 @@
         ;
     }
 
+    .layout__main {
+        margin-right: 0rem;
+    }
+
     /* Cabecera */
     .layout__header {
         display: flex;
@@ -147,6 +151,7 @@
 
     }
 
+    /* Mejores momentos */
     .highlights__post {
         /* width: 100%; */
         flex-basis: 100%;
@@ -248,5 +253,99 @@
     .slider__container--slider5 {
         width: 100%;
         height: 19.2rem;
+    }
+}
+
+@media (max-width: 592px) {
+    .layout {
+        width: 40%;
+        min-width: 40rem;
+        margin: 0 auto;
+    }
+
+    /* Slider */
+    .layout__slider {
+        grid-template-areas:
+            "slider1 slider1 slider1 slider1"
+            "slider2 slider2 slider2 slider2"
+            "slider3 slider3 slider3 slider3"
+            "slider4 slider4 slider4 slider4";
+
+        column-gap: 0;
+        grid-template-columns: 100%;
+    }
+
+    .slider__container--slider2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__container--slider3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__container--slider5 {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Mejores momentos */
+    .highlights__post {
+        /* width: 100%; */
+        flex-direction: row;
+    }
+
+    .highlights__img {
+        width: 100%;
+    }
+
+    /* videos */
+
+
+    .videos__list {
+        flex-direction: column;
+    }
+
+    .videos__video {
+        width: 100%;
+    }
+
+    .main-video__yt-video {
+        height: 22rem;
+    }
+
+    .carrousel-games__hidden-small {
+        display: none;
+    }
+
+    .carrousel-games__item {
+        flex-basis: 100%;
+    }
+
+    .carrousel-games__category {
+        font-size: 1.5rem;
+    }
+
+    .carrousel-games__line {
+        height: 0.4rem;
+    }
+
+    /* noticias */
+    .news__main-post {
+        flex-direction: column;
+    }
+
+    .news__list {
+        flex-direction: column;
+    }
+
+    /* Juegos */
+    .games__container {
+        flex-direction: column;
+    }
+
+    .games__game {
+        width: 100%;
     }
 }
