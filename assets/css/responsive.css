@@ -99,7 +99,7 @@
     /* Submenu mobile */
 
     .mobile-list__msubmenu {
-        display: block;
+        display: none;
     }
 
     .msubmenu__item {
