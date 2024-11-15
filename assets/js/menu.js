@@ -39,5 +39,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
         // Ejecutar funcionalidad
         submenu(dropdown1_btn, dropdown1_submenu, "drop1")
         submenu(dropdown2_btn, dropdown2_submenu, "drop2")
+
+        // Redimensionado
+        window.addEventListener("resize", ()=> {
+            let win = parseFloat(document.body.clientWidth)
+
+            if(win > 1024){
+                mobile__menu.style.display = "none"
+                mobile__menu.classList.remove("menu_open")
+            }
+        })
     })
 })
